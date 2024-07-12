@@ -6,7 +6,6 @@ print(last_name)
 print(city)      
 print(phone)    
 print(country)   
-
 # task_2 using method index
 line_1 = 'результат операции: 42'
 line_2 = 'результат операции: 514'
@@ -17,7 +16,6 @@ number_3 = int(line_3[line_3.index(':') + 2:]) + 10
 print(number_1)
 print(number_2)
 print(number_3)
-
 # task_3
 students = ['Ivanov', 'Petrov', 'Sidorov']
 subjects = ['math', 'biology', 'geography']
