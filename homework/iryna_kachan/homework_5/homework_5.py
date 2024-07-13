@@ -1,11 +1,11 @@
 # task_1 create variables from list
 person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
 name, last_name, city, phone, country = person
-print(name)     
-print(last_name) 
-print(city)      
-print(phone)    
-print(country)   
+print(name)
+print(last_name)
+print(city)   
+print(phone)
+print(country)
 # task_2 using method index
 line_1 = 'результат операции: 42'
 line_2 = 'результат операции: 514'
@@ -22,9 +22,9 @@ subjects = ['math', 'biology', 'geography']
 students = ', '.join(students)
 subjects = ', '.join(subjects)
 print('Students', students, 'study these subjects:', subjects)  # 1 version
-text = 'Students %s study these subjects: %s'  
+text = 'Students %s study these subjects: %s'
 print(text % (students, subjects))  # 2 version
-text = 'Students {0} study these subjects: {1}' 
+text = 'Students {0} study these subjects: {1}'
 print(text.format(students, subjects))  # 3 version
-text = f'Students {students} study these subjects: {subjects}'  # 4 version 
+text = f'Students {students} study these subjects: {subjects}'  # 4 version
 print(text)
