@@ -3,7 +3,7 @@ person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
 name, last_name, city, phone, country = person
 print(name)
 print(last_name)
-print(city)   
+print(city)
 print(phone)
 print(country)
 # task_2 using method index
@@ -16,7 +16,7 @@ number_3 = int(line_3[line_3.index(':') + 2:]) + 10
 print(number_1)
 print(number_2)
 print(number_3)
-# task_3
+# task_3 print text
 students = ['Ivanov', 'Petrov', 'Sidorov']
 subjects = ['math', 'biology', 'geography']
 students = ', '.join(students)
