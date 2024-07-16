@@ -7,7 +7,7 @@ d = '!'
 
 def calc(numb):
     print(numb * words[numb])
-    
+
 
 calc(a)
 calc(b)
